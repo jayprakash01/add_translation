@@ -14,5 +14,7 @@ The add translation module create translated nodes in bulk for a language instea
 ## How to confgure the Module
 1. Go to the configuration -> [Configure Bulk Translation](/admin/config/add-translation/settings)
 2. Choose the `language`, `content type` and `status` from the dropdown and save the configuration.
+
 ![Screenshot](screenshot.png)
+
 3. Finally click the button `Add Translation` from Bulk Translation Tab. It will create the translated nodes in bulk for the selected language and content type.
