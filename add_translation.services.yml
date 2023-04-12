@@ -1,0 +1,4 @@
+services:
+  add_translation.translation_update:
+    class: Drupal\add_translation\AddTranslation
+    arguments: ['@config.factory', '@entity_type.manager', '@messenger']

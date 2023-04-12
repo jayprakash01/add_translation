@@ -1,0 +1,14 @@
+config:
+  add_translation.settings:
+    type: mapping
+    label: 'Translation settings'
+    mapping:
+      destination_lang:
+        type: string
+        label: 'The language code'
+      content_type:
+        type: string
+        label: 'The content type'
+      content_status:
+        type: boolean
+        label: 'The content status'

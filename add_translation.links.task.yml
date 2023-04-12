@@ -1,0 +1,8 @@
+add_translation.tab.admin:
+  title: 'Bulk Translation'
+  route_name: add_translation.admin
+  base_route: add_translation.settings_form
+add_translation.tab.settings_form:
+  title: 'Configure'
+  route_name: add_translation.settings_form
+  base_route: add_translation.settings_form

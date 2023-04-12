@@ -1,0 +1,10 @@
+type: module
+name: 'Add Translation'
+description: 'Add Translation of nodes for configured language'
+package: Custom
+core_version_requirement: ^8.8 || ^9 || ^10
+configure: add_translation.settings_form
+dependencies:
+  - drupal:language
+  - drupal:locale
+  - drupal:content_translation

@@ -1,0 +1,17 @@
+add_translation.admin:
+  path: '/admin/config/add-translation'
+  defaults:
+    _form: '\Drupal\add_translation\Form\AddTranslationForm'
+    _title: 'Add Translation'
+  options:
+    _admin_route: TRUE
+  requirements:
+    _permission: 'administer site configuration'
+
+add_translation.settings_form:
+  path: '/admin/config/add-translation/settings'
+  defaults:
+    _form: 'Drupal\add_translation\Form\AddTranslationSettingForm'
+    _title: 'Bulk Translation settings'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,5 @@
+configure_translation.admin:
+  title: 'Configure Bulk Translation'
+  description: 'Configure Bulk Translation.'
+  route_name: add_translation.settings_form
+  parent: 'system.admin_config_development'
